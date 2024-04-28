@@ -31,5 +31,10 @@ window.onload = function() {
     context.fillStyle = "green" ;
     context.fillRect(doodler.x,doodler.y,doodler.width,doodler.height);
 
+    //load the doodle image
+    doodlerRightImg = new Image();
+    doodlerRightImg.src = "./images/doodler-right.png";
+    doodler.img = doodlerRightImg
+
 
 }
